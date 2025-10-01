@@ -1,3 +1,13 @@
+# Details of changes
+
+Forked form [MuseTalk Repo](https://github.com/TMElyralab/MuseTalk/tree/67e7ee3c7397bcfd03e123398e5497f31be1bf92) with changes from 12th April 2025.
+
+Added files for serving the model via FastAPI and upload the files to S3, details in:
+- [API_README_S3.md](./API_README_S3.md)
+- [API_README.md](./API_README.md)
+
+---
+
 # MuseTalk
 
 <strong>MuseTalk: Real-Time High-Fidelity Video Dubbing via Spatio-Temporal Sampling</strong>

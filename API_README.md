@@ -37,7 +37,7 @@ pip install -r requirements_realtime_api.txt
 Start the API server with:
 
 ```bash
-python api.py
+python api_local_input.py
 ```
 
 By default, the server will run on `http://localhost:8800`.
