@@ -16,3 +16,4 @@ ffplay*
 debug
 exp_out
 .gradio
+tmp_s3_downloads/
