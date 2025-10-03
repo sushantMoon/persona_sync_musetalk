@@ -31,17 +31,17 @@ config = {
     # "left_cheek_width": 90,
     # "right_cheek_width": 90,
     # "skip_save_images": False,
-    # "s3_bucket": "sushant-bucket-mumbai",  # S3 bucket for output upload
+    # "s3_bucket": "S3_BUCKET",  # S3 bucket for output upload
     # "s3_prefix": "aws_summit_2025_persona_sync/lip_sync/outputs",  # S3 prefix for output upload
     "avatars": {
         "avator_1": {
             "preparation": True,
             # Example S3 path for video
-            "video_path": "s3://sushant-bucket-mumbai/aws_summit_2025_persona_sync/cog_video_generator/3c14f541-121b-42b6-bb7c-21f8b5107f0c/intermediate_video.mp4",
+            "video_path": "s3://S3_BUCKET/aws_summit_2025_persona_sync/cog_video_generator/3c14f541-121b-42b6-bb7c-21f8b5107f0c/intermediate_video.mp4",
             "audio_clips": {
                 # Example S3 path for audio
-                # "audio_0": "s3://sushant-bucket-mumbai/aws_summit_2025_persona_sync/seedvc/recreated_audio/remix_vc_9c6bddb6_audio.wav"
-                "audio_0": "s3://sushant-bucket-mumbai/aws_summit_2025_persona_sync/seedvc/recreated_audio/remix_vc_dfce4fd5_audio.wav"
+                # "audio_0": "s3://S3_BUCKET/aws_summit_2025_persona_sync/seedvc/recreated_audio/remix_vc_9c6bddb6_audio.wav"
+                "audio_0": "s3://S3_BUCKET/aws_summit_2025_persona_sync/seedvc/recreated_audio/remix_vc_dfce4fd5_audio.wav"
             }
         }
     }
