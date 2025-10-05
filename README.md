@@ -6,6 +6,8 @@ Added files for serving the model via FastAPI and upload the files to S3, detail
 - [API_README_S3.md](./API_README_S3.md)
 - [API_README.md](./API_README.md)
 
+Read the [Setup Readme](./SETUP.md) for any additional information.
+
 ---
 
 # MuseTalk
